@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #E020DF;
+  --grey-light: #E9E9E9;
+  --grey-dark: #979797;
+  --font-main: 'Montserrat', sans-serif !important;
+  --size-xs: 4px;
+  --size-s: 8px;
+  --size-m: 16px;
+  --size-l: 24px;
+  --size-xl: 40px;
+}
+
+html, body, #root{
+	height:100%;
+}
+
+*{
+  font-family: var(--font-main) !important;
+  font-weight: 300;
+}
+
+h1{
+  font-size: var(--size-xl) !important;
+}
+
+h2{
+  font-size: var(--size-l) !important;
+}
+
+strong, b{
+  font-weight: bold !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
